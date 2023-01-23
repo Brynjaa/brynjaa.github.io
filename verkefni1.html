@@ -17,7 +17,8 @@
     <header id="header" class="alt content-align-left">
         <p> </p>
         <ul class="actions">
-            <p> </p>
+			<div class="space">
+			</div>
             <li><a href="index.html" class="button small">Heim</a></li>
             <li><a href="verkefni.html" class="button small">Verkefni</a></li>
         </ul>
@@ -26,10 +27,46 @@
 	<body class="is-preload">
         <section class="wrapper style1 align-center">
 			<div class="inner">
-				<h2>Verkefni 1</h2>
-				<p>Verkefni 1 snerist um ....</p>
+				<h2>Að búa til vefsíðu með HTML</h2>
 				<div class="index align-left">
 		</section>
+		<div class="content">
 
+			<dl>
+				<dt>Verkefnalýsing</dt>
+				<dd>
+					<p>Veldu eða smíðaðu html sniðmát fyrir vefsíðuna þína, skipulegðu hana með upplýsingum um þína ferilskrá. Skrásettu ítarlega hvernig þú framkvæmdir fyrsta verkefnið og settu á github með því að nota Git bash.
+						Mikilvægt er að fram komi hvaða áskoranir komu upp og hvernig leyst var úr þeim, í máli og myndum.</p>
+				</dd>
+				<dt>Undirbúningsvinna</dt>
+				<dd>
+					<p>Áður en ég byrjaði á verkefninu byrjaði ég á að sækja forritið Brackets og velja mér sniðmót af síðunni <a href="https://html5up.net">html5up</a>.
+					Svo horfði ég á nokkur myndbönd, m.a. myndbönd frá kennaranum, og skoðaði vefsíðuna <a href="https://www.w3schools.com/html/default.asp">w3schools</a></p>
+				</dd>
+				<dt>Uppsetning á Github</dt>
+				<dd>
+					<p> Ég fylgdi leiðbeiningum af heimasíðu Github til að setja upp repository. Ég byrjaði á að uploada skránum inn á repositoryið á Github en það gaf alltaf 404 villu, svo ég endaði á að clone-a repositoryið í gitbash og notaði svo eftirfarandi Gitbash skipanir.</p>
+						<div class="content">
+							<pre><code>
+cd HI/Brackets
+git clone https://github.com/Brynjaa/brynjaa.github.io.git
+cd brynjaa.github.io
+git add .
+git commit -m "Vefsíða sniðmót"
+git push origin/main
+							</code></pre>
+					<p>Þegar ég keyrði skipunina git push commit var ég beðin um notendanafn og lykilorð. Ég þurfti að fara inn á github í stillingar til að finna personal access token til að setja inn fyrir lykilorðið. 
+						Eftir þetta færði ég mig yfir í Visual Studio Code og notaði Source control flipann til þess að uppfæra síðuna mína. 
+					</p>
+						</div>
+				</dd>
+				<dt>Að búa til vefsíðuna</dt>
+				<dd>
+					<p> Þegar ég var búin að uploada vefsíðunni á Github fór ég í að breyta sniðmótinu svo það hentaði mér. Ég bætti við header sem bendir aftur á "Heim" síðuna á "Verkefni" og "Ferilskrá" síðurnar með eftirfarandi kóða:</p>
+					<span class="image"><img src="images/header.png" alt="" /></span>
+					<p>Svo bætti ég við eins header inn á þessa síðu sem benti bæði "Heim" og aftur inn á "Verkefni" síðuna. 
+					Svo fór ég í að setja inn myndir og laga til textann. Að lokum bætti ég við ferilskránni minni inn á "Ferilskrá" síðuna</p>
+			</dl>
+		</div>
     </body>
 </html>
